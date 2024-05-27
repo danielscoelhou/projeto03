@@ -1,0 +1,126 @@
+body{
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: rgb(223, 223, 223);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.header-logo{
+    font-size: 36px;
+    margin-left: 15px;
+    color: blue;
+    text-transform: uppercase;
+}
+
+.header-menu ul{
+    margin-right: 10px;
+}
+
+.header-menu li{
+    list-style-type: none;
+    display: inline-block;
+    background-color: white;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.header-menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    letter-spacing: 2px;
+    font-size: 14px;
+    padding: 15px;
+    color: blue;
+}
+.header-menu a:hover{
+    background-color: rgba(0, 0, 253, 0.671);
+    color: white;
+    border-radius: 5px;
+}
+
+.titulo-principal{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 48px;
+    color: blue;
+    text-shadow: 0 2px 5px gray;
+}
+
+.planos-precos{
+    display: flex;
+    gap: 16px;
+}
+
+.plano{
+    flex: 1;
+    background-color: rgb(223, 223, 223);
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px -6px black;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-plano{
+    text-transform: uppercase;
+    border-bottom: 2px solid blue;
+    margin-top: 0;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.plano p{
+    margin: 0;
+}
+
+.preco{
+    font-size: 32px;
+}
+
+.item-plano{
+    margin: 5px 0 35px;
+    padding-left: 16px;
+    line-height: 1.8;
+    flex: 1;
+}
+
+.item-plano li::marker{
+    color: blue;
+}
+
+.plano-cta{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px 10px;
+    text-align: center;
+}
+
+.plano-cta:hover{
+    outline: 2px solid blue;
+    background-color: transparent;
+    color: blue;
+}
+
+footer{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    background-color:rgb(223, 223, 223);
+    color: blue;
+    padding: 20px;
+    margin-top: 20px;
+}
